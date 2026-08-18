@@ -12,18 +12,18 @@ Sign in as an administrator, then open **Site administration → Appearance → 
 The page provides controls for the logo, favicon, login background, primary colour, and custom SCSS.
 
 User-facing core wording overrides live in `branding/lang/en_local/` (English) and
-`branding/lang/am_local/` (Amharic - አማርኛ). Re-run `./setup-aflex.sh` after changing these files
+`lang/am_local/` (Amharic - አማርኛ). Re-run `./setup-aflex.sh` after changing these files
 to deploy them and purge Moodle's caches.
 
 ## Localization (English & Amharic - አማርኛ)
 
 The platform supports both English and Amharic with full system-wide translation coverage:
-- **Amharic configurations & fonts**: Configured in `branding/lang/am_local/langconfig.php` and `public/theme/aflex/scss/aflex.scss` (with `Noto Sans Ethiopic` font rendering).
-- **Core, Navigation & Buttons**: Located in `branding/lang/am_local/moodle.php`.
-- **Site Administration**: Located in `branding/lang/am_local/admin.php`.
-- **Courses & Learning**: Located in `branding/lang/am_local/course.php`.
-- **User Profiles & Preferences**: Located in `branding/lang/am_local/user.php`.
-- **AFLEX & Boost Themes**: Located in `branding/lang/am_local/theme_aflex.php` and `theme_boost.php`.
+- **Amharic configurations**: Configured in `lang/am_local/langconfig.php`.
+- **Core, Navigation & Buttons**: Located in `lang/am_local/moodle.php`.
+- **Site Administration**: Located in `lang/am_local/admin.php`.
+- **Courses & Learning**: Located in `lang/am_local/course.php`.
+- **User Profiles & Preferences**: Located in `lang/am_local/user.php`.
+- **Boost Theme**: Located in `lang/am_local/theme_boost.php`.
 
 Users can easily switch between English and Amharic from the language dropdown in the top navbar.
 

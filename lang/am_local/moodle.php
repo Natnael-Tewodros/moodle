@@ -10,16 +10,10 @@
  * Core language strings for Amharic (አማርኛ)
  *
  * @package   core
- * @copyright AFLEX Learning Platform
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
-
-// Platform & Branding Strings
-$string['loginwelcometitle'] = 'እንኳን ወደ AFLEX በደህና መጡ';
-$string['loginwelcomedescription'] = 'በተለዋዋጭ የመማሪያ መድረክ ችሎታዎን ያዳብሩ፣ አዳዲስ ኮርሶችን ያስሱ እና ግብዎን ያሳኩ።';
-$string['poweredbymoodle'] = 'AFLEX የመማሪያ መድረክ';
 
 // Navigation & Structure
 $string['home'] = 'መነሻ ገጽ';

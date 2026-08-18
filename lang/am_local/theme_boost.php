@@ -10,7 +10,6 @@
  * Boost theme language strings for Amharic (አማርኛ)
  *
  * @package   theme_boost
- * @copyright AFLEX Learning Platform
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

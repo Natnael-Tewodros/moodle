@@ -14,8 +14,9 @@ docker compose up -d --build
 docker compose exec -T web chown -R www-data:www-data /var/www/moodledata
 docker compose exec -T web mkdir -p /var/www/moodledata/lang
 
-# Copy branding language packs (en_local and am_local)
-docker compose cp branding/lang/. web:/var/www/moodledata/lang/
+# Copy language packs (en_local and am_local)
+docker compose cp branding/lang/en_local web:/var/www/moodledata/lang/
+docker compose cp lang/am_local web:/var/www/moodledata/lang/
 docker compose exec -T web chown -R www-data:www-data /var/www/moodledata/lang
 
 if ! docker compose exec -T --user www-data web php admin/cli/isinstalled.php >/dev/null 2>&1; then

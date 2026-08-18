@@ -10,7 +10,6 @@
  * Language configuration for Amharic (አማርኛ)
  *
  * @package   core_langconfig
- * @copyright AFLEX Learning Platform
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

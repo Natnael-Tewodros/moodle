@@ -1,0 +1,465 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+
+/**
+ * Strings for component 'backup', language 'am'
+ *
+ * @package   backup
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['asyncbackupcomplete'] = 'የመጠባበቂያ ሂደቱ ተጠናቅቋል';
+$string['asyncbackupcompletebutton'] = 'ቀጥል';
+$string['asyncbackupcompletedetail'] = 'የመጠባበቂያ ሂደቱ በተሳካ ሁኔታ ተጠናቅቋል. <br/> ምትኬን በ<a href="{$a}"> ወደነበረበት መልስ ገጽ </a> ማግኘት ይችላሉ።';
+$string['asyncbackuperror'] = 'የመጠባበቂያ ሂደቱ አልተሳካም';
+$string['asyncbackuperrordetail'] = 'የመጠባበቂያ ሂደቱ አልተሳካም. እባክዎ የስርዓት አስተዳዳሪዎን ያግኙ።';
+$string['asyncbackuppending'] = 'የመጠባበቂያ ሂደቱ በመጠባበቅ ላይ ነው';
+$string['asyncbackupprocessing'] = 'መጠባበቂያው በሂደት ላይ ነው።';
+$string['asyncbadexecution'] = 'መጥፎ የመጠባበቂያ መቆጣጠሪያ አፈፃፀም። እሱ {$a} ነው እና 2 መሆን አለበት።';
+$string['asynccheckprogress'] = 'ሂደቱን በማንኛውም ጊዜ በ<a href="{$a}">የመልሶ ማግኛ ገጽ</a> መመልከት ይችላሉ።';
+$string['asyncgeneralsettings'] = 'ያልተመሳሰለ ምትኬ/ ወደነበረበት መመለስ';
+$string['asyncemailenable'] = 'ማሳወቂያዎችን አንቃ';
+$string['asyncemailenabledetail'] = 'ከነቃ ተጠቃሚዎች ያልተመሳሰለ ምትኬ ወይም እነበረበት መመለስ ሲጠናቀቅ ማሳወቂያ ይደርሳቸዋል።';
+$string['asyncmessagebody'] = 'ማስታወቂያ';
+$string['asyncmessagebodydefault'] = '{operation} (መታወቂያ፡ {backupid}) ተጠናቅቋል። እዚህ ይድረሱበት፡ <a href="{link}">{link}</a>።';
+$string['asyncmessagebodydetail'] = 'ያልተመሳሰለ ምትኬ ወይም እነበረበት መመለስ ሲጠናቀቅ የሚላክ ማሳወቂያ።';
+$string['asyncmessagesubject'] = 'ርዕሰ ጉዳይ';
+$string['asyncmessagesubjectdetail'] = 'የማሳወቂያ ርዕሰ ጉዳይ';
+$string['asyncmessagesubjectdefault'] = 'Moodle {operation} በተሳካ ሁኔታ ተጠናቋል';
+$string['asyncnowait'] = 'ሂደቱ ከበስተጀርባ ስለሚቀጥል እዚህ መጠበቅ አያስፈልግዎትም።';
+$string['asyncprocesspending'] = 'ሂደት በመጠባበቅ ላይ';
+$string['asyncrestorecomplete'] = 'የመልሶ ማግኛ ሂደቱ ተጠናቅቋል';
+$string['asyncrestorecompletebutton'] = 'ቀጥል';
+$string['asyncrestorecompletedetail'] = 'የመልሶ ማግኛ ሂደቱ በተሳካ ሁኔታ ተጠናቅቋል. ቀጥልን ጠቅ ማድረግ ወደነበረበት የተመለሰው ንጥል ወደ <a href="{$a}"> ኮርስ ይወስድዎታል።</a>';
+$string['asyncrestoreerror'] = 'የመልሶ ማቋቋም ሂደቱ አልተሳካም።';
+$string['asyncrestoreerrordetail'] = 'የመልሶ ማቋቋም ሂደቱ አልተሳካም። እባክዎ የስርዓት አስተዳዳሪዎን ያግኙ።';
+$string['asyncrestorepending'] = 'የመልሶ ማግኛ ሂደቱ በመጠባበቅ ላይ ነው';
+$string['asyncrestoreprocessing'] = 'መልሶ ማግኘቱ በሂደት ላይ ነው።';
+$string['asyncreturn'] = 'ወደ ኮርስ ተመለስ';
+$string['asyncrestoreinprogress'] = 'ወደነበረበት መመለስ በሂደት ላይ';
+$string['asyncrestoreinprogress_help'] = 'በሂደት ላይ ያሉ ያልተመሳሰሉ ኮርሶች እድሳት እዚህ ይታያሉ።';
+$string['autoactivedisabled'] = 'ተሰናክሏል።';
+$string['autoactiveenabled'] = 'ነቅቷል';
+$string['autoactivemanual'] = 'መመሪያ';
+$string['autoactivedescription'] = 'የ Command Line Interface (CLI) ስክሪፕት በመጠቀም ራስ-ሰር ምትኬዎች በራስ-ሰር ወይም በእጅ ሊሄዱ ይችላሉ።';
+$string['automatedbackupschedule'] = 'መርሐግብር';
+$string['automatedbackupschedulehelp'] = 'አውቶማቲክ ምትኬዎችን ለማከናወን የትኞቹን የሳምንቱ ቀናት ይምረጡ።';
+$string['automatedbackupsinactive'] = 'አውቶማቲክ ምትኬዎች በጣቢያው አስተዳዳሪ አልነቁም።';
+$string['automatedbackupstatus'] = 'ራስ-ሰር የመጠባበቂያ ሁኔታ';
+$string['automateddeletedays'] = 'የቆዩ ምትኬዎችን ሰርዝ';
+$string['automatedmaxkept'] = 'የሚፈቀደው ከፍተኛው የመጠባበቂያ ብዛት';
+$string['automatedmaxkepthelp'] = 'ይህ ለእያንዳንዱ ኮርስ የሚቀመጡ ከፍተኛውን የቅርብ ጊዜ አውቶማቲክ መጠባበቂያዎች ይገልጻል። የቆዩ ምትኬዎች በራስ-ሰር ይሰረዛሉ።';
+$string['automatedminkept'] = 'ዝቅተኛው የመጠባበቂያ ብዛት';
+$string['automatedminkepthelp'] = 'ከተወሰኑ ቀናት በላይ የቆዩ መጠባበቂያዎች ከተሰረዙ፣ እንቅስቃሴ-አልባ ኮርስ ያለ ምንም ምትኬ ያበቃል። ይህንን ለመከላከል በትንሹ የተቀመጡ የመጠባበቂያ ቅጂዎች መገለጽ አለባቸው።';
+$string['automatedsetup'] = 'ራስ-ሰር ምትኬ ማዋቀር';
+$string['automatedsettings'] = 'ራስ-ሰር የመጠባበቂያ ቅንብሮች';
+$string['automatedstorage'] = 'ራስ-ሰር ምትኬ ማከማቻ';
+$string['automatedstoragehelp'] = 'ምትኬዎች በራስ-ሰር ሲፈጠሩ እንዲቀመጡ የሚፈልጉትን ቦታ ይምረጡ።';
+$string['backupactivity'] = 'የመጠባበቂያ እንቅስቃሴ፡ {$a}';
+$string['backupautoactivitiesdescription'] = 'እንቅስቃሴዎችን በመጠባበቂያ ውስጥ ለማካተት ነባሪውን ያዘጋጃል። ሪሳይክል ቢን እንዲሰራ ይህ ቅንብር መንቃት አለበት።';
+$string['backupcoursedetails'] = 'የኮርስ ዝርዝሮች';
+$string['backupcoursesection'] = 'ክፍል፡ {$a}';
+$string['backupcoursesections'] = 'የኮርስ ክፍሎች';
+$string['backupdate'] = 'የተወሰደበት ቀን';
+$string['backupdetails'] = 'የመጠባበቂያ ዝርዝሮች';
+$string['backupdetailsnonstandardinfo'] = 'የተመረጠው ፋይል መደበኛ የሞድል መጠባበቂያ ፋይል አይደለም። የመልሶ ማግኛ ሂደቱ የመጠባበቂያ ፋይሉን ወደ መደበኛ ቅርጸት ለመለወጥ እና ከዚያ ወደነበረበት ለመመለስ ይሞክራል.';
+$string['backupfile'] = 'የመጠባበቂያ ፋይል';
+$string['backupformat'] = 'ቅርጸት';
+$string['backupformatmoodle1'] = 'ሞድል 1';
+$string['backupformatmoodle2'] = 'ሞድል 2';
+$string['backupformatimscc1'] = 'አይኤምኤስ የጋራ ካርቶን 1.0';
+$string['backupformatimscc11'] = 'አይኤምኤስ የጋራ ካርትሬጅ 1.1';
+$string['backupformatunknown'] = 'ያልታወቀ ቅርጸት';
+$string['backuplog'] = 'ቴክኒካዊ መረጃ እና ማስጠንቀቂያዎች';
+$string['backupmode'] = 'ሁነታ';
+$string['backupmode10'] = 'ጠቅላላ';
+$string['backupmode20'] = 'አስመጣ';
+$string['backupmode30'] = 'ሃብ';
+$string['backupmode40'] = 'ተመሳሳይ ጣቢያ';
+$string['backupmode50'] = 'አውቶማቲክ';
+$string['backupmode60'] = 'ተለወጠ';
+$string['backupmode70'] = 'ያልተመሳሰለ';
+$string['backupsection'] = 'የመጠባበቂያ ኮርስ ክፍል፡ {$a}';
+$string['backupsettings'] = 'የመጠባበቂያ ቅንብሮች';
+$string['backupsitedetails'] = 'የጣቢያ ዝርዝሮች';
+$string['backupstage1action'] = 'ቀጣይ';
+$string['backupstage2action'] = 'ቀጣይ';
+$string['backupstage4action'] = 'ምትኬን ያከናውኑ';
+$string['backupstage8action'] = 'ቀጥል';
+$string['backupstage16action'] = 'ቀጥል';
+$string['backupthenrestore'] = 'ምትኬ ተጠናቅቋል። ወደነበረበት መመለስ ይጀምሩ።';
+$string['backuptype'] = 'ዓይነት';
+$string['backuptypeactivity'] = 'ተግባር';
+$string['backuptypecourse'] = 'ኮርስ';
+$string['backuptypesection'] = 'ክፍል';
+$string['backupversion'] = 'የመጠባበቂያ ስሪት';
+$string['cannotfindassignablerole'] = 'በመጠባበቂያ ፋይሉ ውስጥ ያለው {$a} ሚና እርስዎ እንዲመድቡ ከተፈቀደልዎ ወደ የትኛውም ሚናዎች ሊቀረጽ አይችልም።';
+$string['choosefilefromcoursebackup'] = 'የኮርስ የመጠባበቂያ ቦታ';
+$string['choosefilefromcoursebackup_help'] = 'የዚህ ኮርስ ምትኬ ፋይሎች።';
+$string['choosefilefromuserbackup'] = 'የተጠቃሚ የግል ምትኬ ቦታ';
+$string['choosefilefromuserbackup_help'] = 'ለሁሉም ኮርሶች የግል ምትኬ ፋይሎች፣ ማንነታቸው ከማይታወቅ የተጠቃሚ መረጃ ጋር።';
+$string['choosefilefromactivitybackup'] = 'የእንቅስቃሴ ምትኬ አካባቢ';
+$string['choosefilefromactivitybackup_help'] = 'የዚህ እንቅስቃሴ ምትኬ ፋይሎች።';
+$string['choosefilefromautomatedbackup'] = 'ራስ-ሰር ምትኬዎች';
+$string['choosefilefromautomatedbackup_help'] = 'ምትኬ ፋይሎች በራስ-ሰር ይፈጠራሉ።';
+$string['config_keep_groups_and_groupings'] = 'በነባሪነት አሁን ያሉ ቡድኖችን እና ስብስቦችን ያቆዩ።';
+$string['config_keep_roles_and_enrolments'] = 'በነባሪነት የአሁን ሚናዎችን እና ምዝገባዎችን ያቆዩ።';
+$string['config_overwrite_conf'] = 'ተጠቃሚ የአሁኑን የኮርስ ውቅር እንዲጽፍ ያስችለዋል።';
+$string['config_overwrite_course_fullname'] = 'በነባሪነት ኮርሱን ሙሉ ስም ከመጠባበቂያ ፋይሉ ላይ ይፃፉ። ይህ ለመፈተሽ "የኮርስ ውቅረትን ይተካ" እና የአሁኑ ተጠቃሚ የኮርሱ ሙሉ ስም የመቀየር ችሎታ እንዲኖረው ይጠይቃል (ሙድ / ኮርስ: ሙሉ ስም)';
+$string['config_overwrite_course_shortname'] = 'በነባሪ የኮርስ አጭር ስም ከመጠባበቂያ ፋይሉ ላይ ይፃፉ። ይህ ለመፈተሽ "የኮርስ ውቅረትን ይተካ" እና የአሁኑ ተጠቃሚ የኮርስ አጭር ስም የመቀየር ችሎታ እንዲኖረው ይፈልጋል';
+$string['config_overwrite_course_startdate'] = 'በነባሪ የኮርስ መጀመሪያ ቀን ከመጠባበቂያ ፋይሉ ላይ ይፃፉ። ይህ ለመፈተሽ "የኮርስ ውቅረትን ይተካ" እና የአሁኑ ተጠቃሚ የኮርስ ቀኖችን መልሶ በማገገም ላይ የማሽከርከር ችሎታ እንዲኖረው ይፈልጋል (ሙድ/እነበረበት መልስ፡rolldates)';
+$string['configgeneralactivities'] = 'እንቅስቃሴዎችን በመጠባበቂያ ውስጥ ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralbadges'] = 'ባጆችን በመጠባበቂያ ውስጥ ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralanonymize'] = 'ከነቃ ሁሉም ተጠቃሚዎችን የሚመለከቱ መረጃዎች በነባሪነት ይሰረዛሉ።';
+$string['configgeneralblocks'] = 'ብሎኮችን በመጠባበቂያ ውስጥ ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralcalendarevents'] = 'የቀን መቁጠሪያ ክስተቶችን በመጠባበቂያ ውስጥ ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralcomments'] = 'በመጠባበቂያ ውስጥ አስተያየቶችን ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralcompetencies'] = 'በመጠባበቂያ ውስጥ ብቃቶችን ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralcontentbankcontent'] = 'የይዘት ባንክ ይዘትን በመጠባበቂያ ውስጥ ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralcustomfield'] = 'በመጠባበቂያ ውስጥ ብጁ መስኮችን ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralfiles'] = 'በመጠባበቂያ ውስጥ ፋይሎችን ለማካተት ነባሪውን ያዘጋጃል። እባክዎን ያስተውሉ፡ ይህን ቅንብር ማሰናከል የፋይሎችን ማጣቀሻዎች ብቻ የሚያካትት ምትኬን ያስከትላል። የመጠባበቂያ ቅጂው በተመሳሳይ ጣቢያ ላይ ከተመለሰ እና ፋይሎቹ ካልተሰረዙ \'የመጣያ ገንዳ ፋይሎችን ያፅዱ\' (filescleanupperiod) በሚለው ቅንብር መሰረት ይህ ችግር አይደለም.';
+$string['configgeneralfilters'] = 'በመጠባበቂያ ውስጥ ማጣሪያዎችን የማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralhistories'] = 'የተጠቃሚ ታሪክን በመጠባበቂያ ውስጥ ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgenerallogs'] = 'የነቁ ምዝግብ ማስታወሻዎች በነባሪ በመጠባበቂያዎች ውስጥ ይካተታሉ።';
+$string['configgeneralgroups'] = 'በመጠባበቂያ ውስጥ ቡድኖችን እና ስብስቦችን ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralroleassignments'] = 'በነባሪነት ሚናዎች ከነቃ ምደባዎችም ይደገፋሉ።';
+$string['configgeneralpermissions'] = 'ከነቃ የሚና ፈቃዶች ይመጣሉ። ይህ ለተመዘገቡ ተጠቃሚዎች ያሉትን ፈቃዶች ሊሽረው ይችላል።';
+$string['configgeneraluserscompletion'] = 'ከነቃ የተጠቃሚ ማጠናቀቂያ መረጃ በነባሪ በመጠባበቂያዎች ውስጥ ይካተታል።';
+$string['configgeneralusers'] = 'በመጠባበቂያዎች ውስጥ ተጠቃሚዎችን ማካተት አለማካተት ነባሪውን ያዘጋጃል።';
+$string['configgeneralxapistate'] = 'እንደ H5P እንቅስቃሴዎች በመጠባበቂያ ውስጥ የተጠቃሚውን ሁኔታ ለማካተት ነባሪውን ያዘጋጃል።';
+$string['configlegacyfiles'] = 'የቆዩ የኮርስ ፋይሎችን በመጠባበቂያ ውስጥ ለማካተት ነባሪውን ያዘጋጃል። የቆየ የኮርስ ፋይሎች ከ2.0 በፊት ከ Moodle ስሪቶች የመጡ ናቸው።';
+$string['configloglifetime'] = 'ይህ የምትኬ የምዝግብ ማስታወሻዎችን መረጃ ለማስቀመጥ የምትፈልገውን የጊዜ ርዝመት ይገልጻል። ከዚህ እድሜ በላይ የቆዩ ምዝግብ ማስታወሻዎች በራስ ሰር ይሰረዛሉ። ይህን እሴት ትንሽ እንዲቆይ ይመከራል፣ ምክንያቱም የመጠባበቂያ የተመዘገበ መረጃ ትልቅ ሊሆን ይችላል።';
+$string['configrestoreactivities'] = 'እንቅስቃሴዎችን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestorebadges'] = 'ባጆችን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestoreblocks'] = 'ብሎኮችን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestorecalendarevents'] = 'የቀን መቁጠሪያ ክስተቶችን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestorecomments'] = 'አስተያየቶችን ወደነበረበት ለመመለስ ነባሪው ያዘጋጃል።';
+$string['configrestorecompetencies'] = 'ብቃቶችን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestorecontentbankcontent'] = 'የይዘት የባንክ ይዘትን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestorecustomfield'] = 'ብጁ መስኮችን ወደነበሩበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestoreenrolments'] = 'የመመዝገቢያ ዘዴዎችን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestorefilters'] = 'ማጣሪያዎችን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestorehistories'] = 'በመጠባበቂያው ውስጥ ከተካተተ የተጠቃሚ ታሪክን ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestorelogs'] = 'የነቁ ምዝግብ ማስታወሻዎች በመጠባበቂያው ውስጥ ከተካተቱ በነባሪነት ወደነበሩበት ይመለሳሉ።';
+$string['configrestoregroups'] = 'በመጠባበቂያው ውስጥ ከተካተቱ ቡድኖችን እና ቡድኖችን ወደነበሩበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['configrestoreroleassignments'] = 'በነባሪነት ሚናዎች ከነቃ በመጠባበቂያው ውስጥ ከተካተቱ ምደባዎች ወደነበሩበት ይመለሳሉ።';
+$string['configrestorepermissions'] = 'ከነቃ የሚና ፈቃዶች ወደነበሩበት ይመለሳሉ። ይህ ለተመዘገቡ ተጠቃሚዎች ያሉትን ፈቃዶች ሊሽረው ይችላል።';
+$string['configrestoreuserscompletion'] = 'ከነቃ የተጠቃሚ ማጠናቀቂያ መረጃ በመጠባበቂያው ውስጥ ከተካተተ በነባሪ ይመለሳል።';
+$string['configrestoreusers'] = 'ተጠቃሚዎች በመጠባበቂያው ውስጥ ከተካተቱ ወደነበሩበት ይመለሱ እንደሆነ ነባሪውን ያዘጋጃል።';
+$string['configrestorexapistate'] = 'እንደ H5P እንቅስቃሴዎች ባሉ ይዘቶች ውስጥ የተጠቃሚውን ሁኔታ ወደነበረበት ለመመለስ ነባሪውን ያዘጋጃል።';
+$string['confirmcancel'] = 'ምትኬን ሰርዝ';
+$string['confirmcancelrestore'] = 'ወደነበረበት መመለስ ሰርዝ';
+$string['confirmcancelimport'] = 'ማስመጣትን ሰርዝ';
+$string['confirmcancelquestion'] = 'እርግጠኛ ነህ መሰረዝ ትፈልጋለህ?
+ያስገቡት ማንኛውም መረጃ ይጠፋል።';
+$string['confirmcancelyes'] = 'ምትኬን ሰርዝ';
+$string['confirmcancelno'] = 'አትሰርዝ';
+$string['confirmnewcoursecontinue'] = 'አዲስ ኮርስ ማስጠንቀቂያ';
+$string['confirmnewcoursecontinuequestion'] = 'ጊዜያዊ (ስውር) ኮርስ በኮርሱ መልሶ ማቋቋም ሂደት ይፈጠራል። መልሶ ማቋቋምን ለማቋረጥ ሰርዝ የሚለውን ጠቅ ያድርጉ። ወደነበረበት በሚመለስበት ጊዜ አሳሹን አይዝጉ።';
+$string['copiesinprogress'] = 'ይህ ኮርስ በሂደት ላይ ያሉ ቅጂዎች አሉት። <a href="{$a}">በሂደት ላይ ያሉ ቅጂዎችን ይመልከቱ።</a>';
+$string['copycoursedesc'] = 'በማንኛውም የኮርስ ምድብ ውስጥ የዚህን ኮርስ ቅጂ ይፍጠሩ.';
+$string['copycoursetitle'] = 'ኮርስ ቅዳ፡ {$a}';
+$string['copydest'] = 'መድረሻ';
+$string['copyingcourse'] = 'የኮርሱ ቅጂ በሂደት ላይ ነው።';
+$string['copyingcourseshortname'] = 'መቅዳት';
+$string['copyfieldnotfound'] = 'የሚፈለገው የመስክ ውሂብ ለመስክ(ዎች) አልተገኘም፦ {$a}';
+$string['copyformfail'] = 'AJAX የኮርስ ቅጂ ቅጽ አልተሳካም።';
+$string['copyop'] = 'የአሁኑ አሠራር';
+$string['copyprogressheading'] = 'የኮርሱ ቅጂዎች በሂደት ላይ ናቸው።';
+$string['copyprogressheading_help'] = 'ይህ ሰንጠረዥ የሁሉንም ያልተጠናቀቁ የኮርስ ቅጂዎች ሁኔታ ያሳያል።';
+$string['copyprogresstitle'] = 'የኮርስ ቅጂ ሂደት';
+$string['copyreturn'] = 'ይቅዱ እና ይመለሱ';
+$string['copysource'] = 'ምንጭ';
+$string['copyview'] = 'ይቅዱ እና ይመልከቱ';
+$string['coursecategory'] = 'ምድብ ትምህርቱ ወደነበረበት ይመለሳል';
+$string['courseid'] = 'ኦሪጅናል መታወቂያ';
+$string['coursesettings'] = 'የኮርስ ቅንብሮች';
+$string['coursetitle'] = 'ርዕስ';
+$string['currentstage1'] = 'የመጀመሪያ ቅንብሮች';
+$string['currentstage2'] = 'የመርሃግብር ቅንብሮች';
+$string['currentstage4'] = 'ማረጋገጫ እና ግምገማ';
+$string['currentstage8'] = 'ምትኬን ያከናውኑ';
+$string['currentstage16'] = 'ተጠናቀቀ';
+$string['defaultbackupfilenameactivity'] = 'የእንቅስቃሴ ምትኬ ነባሪ የፋይል ስም';
+$string['defaultbackupfilenameactivity_desc'] = 'የእንቅስቃሴ ምትኬዎች ተጨማሪ አውድ፡-
+<ul>
+<li><code> እንቅስቃሴ.ስም</code> - ሕብረቁምፊ - የእንቅስቃሴ ስም</li>
+<li><code> እንቅስቃሴ.modname</code> - ኢንቲጀር - የሞዱል ስም</li>
+</ul>';
+$string['defaultbackupfilenamecourse'] = 'የኮርስ ምትኬ ነባሪ የፋይል ስም';
+$string['defaultbackupfilenamecourse_desc'] = 'የኮርስ ምትኬዎች ተጨማሪ አውድ፡-
+<ul>
+<li><code> ኮርስ.አጭር ስም</code> - ሕብረቁምፊ - የኮርስ አጭር ስም</li>
+<li><code> ኮርስ.ሙሉ ስም</code> - ሕብረቁምፊ - ኮርስ ሙሉ ስም</li>
+<li>[[<li>0]]course.startdate[[<li>1]] - ሕብረቁምፊ - ኮርስ የሚጀምርበት ቀን በ[[<li>2]] የመጠባበቂያ ስም ቅርጸት[[<li>3]] lang string[[<li>4]]
+[[<li>5]][[<li>6]]course.endddate[[<li>7]] - ሕብረቁምፊ - የኮርስ ማብቂያ ቀን በ[[<li>8]] የመጠባበቂያ ስም ቅርጸት[[<li>9]] lang string[[<code>0]]
+[[<code>1]]';
+$string['defaultbackupfilenamesection'] = 'የክፍል ምትኬ ነባሪ የፋይል ስም';
+$string['defaultbackupfilenamesection_desc'] = 'ለክፍል ምትኬዎች ተጨማሪ አውድ፡-
+<ul>
+<li><code> ክፍል.ስም</code> - ሕብረቁምፊ - ክፍል ስም</li>
+<li><code> ክፍል</code> - ኢንቲጀር - ክፍል ቁጥር</li>
+</ul>';
+$string['defaultbackupfilenamesettings'] = 'ነባሪ የመጠባበቂያ ፋይል ስሞች';
+$string['defaultbackupfilenamesettings_help'] = 'ለመጠባበቂያ ነባሪ የፋይል ስም ለማቅረብ የሚገመገሙ የጺም አብነቶች።
+እያንዳንዱ የመጠባበቂያ አብነት የሚከተለው አውድ አለው፡
+<ul>
+<li><code> ቅርጸት</code> - ሕብረቁምፊ - የመጠባበቂያ ቅርጸት፣ ብዙ ጊዜ moodle2</li>
+<li><code> አይነት</code> - ሕብረቁምፊ - በእርግጥ አንዱ ክፍል ወይም እንቅስቃሴ</li>
+<li>[[<li>0]] መታወቂያ[[<li>1]] - ኢንቲጀር - የንጥሉ የውሂብ ጎታ መታወቂያ[[<li>2]]
+[[<li>3]][[<li>4]] ጥቅም ላይ ሊውል የሚችል [[<li>5]] - ቡል - መጠባበቂያው ከ[[<li>6]] የመጠባበቂያ_አጭር ስም[[<li>7]] ውቅረት የነቃ ከሆነ[[<li>8]]
+[[<li>9]][[<code>0]] ቀን[[<code>1]] - ሕብረቁምፊ - ቀኑ በ[[<code>2]]የመጠባበቂያ ስም ቅርጸት[[<code>3]] lang ሕብረቁምፊ የተገለጸው ቅርጸት ነው[[<code>4]]
+[[<code>5]][[<code>6]] ተጠቃሚዎች[[<code>7]] - ቡል - የተጠቃሚ ውሂብ ከተካተተ[[<code>8]]
+[[<code>9]][[</code>0]] ያልተሰየመ[[</code>1]] - ቡል - የተጠቃሚው ውሂብ የማይታወቅ ከሆነ[[</code>2]]
+[[</code>3]][[</code>4]] ፋይሎች[[</code>5]] - bool - ፋይሎች ከተካተቱ[[</code>6]]
+[[</code>7]]
+ከተጠቀሱት ከእያንዳንዱ የቦታ ያዥ እሴቶች በተጨማሪ የላንግ ሕብረቁምፊዎችን ለመጨመር {{#str}} አጋዥን መጠቀም ይችላሉ። የ.mbz ቅጥያ ሁልጊዜ ይታከላል. የፋይል ስም ወደ 251 ቻሮች ተቆርጧል።';
+$string['enableasyncbackup'] = 'ያልተመሳሰሉ ምትኬዎችን አንቃ';
+$string['enableasyncbackup_help'] = 'ከነቃ ምትኬ እና እነበረበት መልስ ስራዎች በማይመሳሰል መልኩ ይከናወናሉ። ይህ መጠባበቂያ ወይም እነበረበት መልስ በሂደት ላይ እያለ ተጠቃሚዎች ሌሎች ስራዎችን እንዲሰሩ የሚያስችል የተሻለ የተጠቃሚ ተሞክሮ ይሰጣል። ይህ ወደ ውጭ የሚላኩ ምርቶችን አይጎዳውም.';
+$string['enterasearch'] = 'ፍለጋ አስገባ';
+$string['error_block_for_module_not_found'] = 'የሙት ልጅ የማገጃ ምሳሌ (መታወቂያ፡ {$a->bid}) ለኮርስ ሞጁል (መታወቂያ፡ {$a->mid}) ተገኝቷል። ይህ እገዳ አይቀመጥም።';
+$string['error_course_module_not_found'] = 'የሙት ልጅ ኮርስ ሞጁል (መታወቂያ፡ {$a}) ተገኝቷል። ይህ ሞጁል ምትኬ አይቀመጥም።';
+$string['error_delegate_section_not_found'] = 'የጎደለ የውክልና ክፍል ቅጽ ኮርስ ሞጁል (መታወቂያ {$a})። ክፍሉ ምትኬ አይቀመጥም።';
+$string['errorcopyingbackupfile'] = 'ወደነበረበት ከመመለሱ በፊት የመጠባበቂያ ፋይሉን ወደ ጊዜያዊ አቃፊ መቅዳት አልተሳካም።';
+$string['errorfilenamerequired'] = 'ለዚህ ምትኬ የሚሰራ የፋይል ስም ማስገባት አለብህ';
+$string['errorfilenametoolong'] = 'የፋይል ስሙ ከ255 ቁምፊዎች ያነሰ ርዝመት ሊኖረው ይገባል።';
+$string['errorfilenamemustbezip'] = 'ያስገቡት የፋይል ስም ዚፕ ፋይል መሆን እና የ.mbz ቅጥያ ሊኖረው ይገባል።';
+$string['errorminbackup20version'] = 'ይህ የምትኬ ፋይል የተፈጠረው ከአንድ የሞድል ምትኬ ([{$a->backup}]]) ስሪት ጋር ነው። የሚፈለገው ዝቅተኛው {$a->min} ነው። ወደነበረበት መመለስ አይቻልም።';
+$string['errorinvalidformat'] = 'ያልታወቀ ምትኬ ቅርጸት';
+$string['errorinvalidformatinfo'] = 'የተመረጠው ፋይል የሚሰራ የ Moodle መጠባበቂያ ፋይል አይደለም እና ወደነበረበት ሊመለስ አይችልም።';
+$string['errorrestorefrontpagebackup'] = 'የጣቢያን የቤት ምትኬዎችን በጣቢያው ቤት ላይ ብቻ ወደነበሩበት መመለስ ይችላሉ';
+$string['executionsuccess'] = 'የመጠባበቂያ ፋይሉ በተሳካ ሁኔታ ተፈጥሯል።';
+$string['extractingbackupfileto'] = 'የምትኬ ፋይልን በማውጣት ላይ ወደ፡ {$a}';
+$string['failed'] = 'ምትኬ አልተሳካም።';
+$string['filename'] = 'የፋይል ስም';
+$string['filealiasesrestorefailures'] = 'ተለዋጭ ስሞች ውድቀቶችን ወደነበሩበት ይመልሳሉ';
+$string['filealiasesrestorefailuresinfo'] = 'በመጠባበቂያ ፋይሉ ውስጥ የተካተቱ አንዳንድ ተለዋጭ ስሞች ወደነበሩበት ሊመለሱ አልቻሉም። የሚከተለው ዝርዝር የሚጠበቀው ቦታ እና በዋናው ጣቢያ ላይ የሚያመለክተውን የምንጭ ፋይል ይዟል።';
+$string['filealiasesrestorefailures_help'] = 'ተለዋጭ ስሞች በውጫዊ ማከማቻዎች ውስጥ የተከማቹትን ጨምሮ ለሌሎች ፋይሎች ምሳሌያዊ አገናኞች ናቸው። በአንዳንድ አጋጣሚዎች Moodle እነሱን ወደነበረበት መመለስ አይችልም - ለምሳሌ በሌላ ጣቢያ ላይ ምትኬን ወደነበረበት ሲመልሱ ወይም የተጠቀሰው ፋይል በማይኖርበት ጊዜ።
+
+ተጨማሪ ዝርዝሮች እና የውድቀቱ ትክክለኛ ምክንያት በመልሶ ማግኛ መዝገብ ፋይል ውስጥ ይገኛሉ።';
+$string['filealiasesrestorefailures_link'] = 'እነበረበት መልስ/ፋይሎች';
+$string['filereferencesincluded'] = 'የውጭ ይዘቶች የፋይል ማጣቀሻዎች በመጠባበቂያ ፋይሉ ውስጥ ተካትተዋል። መጠባበቂያው በሌላ ጣቢያ ላይ ከተመለሰ እነዚህ አይሰሩም።';
+$string['filereferencessamesite'] = 'የመጠባበቂያ ፋይሉ ከዚህ ጣቢያ ነው, እና ስለዚህ የፋይል ማጣቀሻዎች ወደነበሩበት ሊመለሱ ይችላሉ.';
+$string['filereferencesnotsamesite'] = 'የመጠባበቂያ ፋይሉ ከሌላ ጣቢያ ነው, እና ስለዚህ የፋይል ማጣቀሻዎች ወደነበሩበት ሊመለሱ አይችሉም.';
+$string['generalactivities'] = 'እንቅስቃሴዎችን እና ሀብቶችን ያካትቱ';
+$string['generalanonymize'] = 'ስም-አልባ መረጃ';
+$string['generalbackdefaults'] = 'አጠቃላይ የመጠባበቂያ ነባሪዎች';
+$string['generalbadges'] = 'ባጆችን ያካትቱ';
+$string['generalblocks'] = 'ብሎኮችን ያካትቱ';
+$string['generalcalendarevents'] = 'የቀን መቁጠሪያ ክስተቶችን ያካትቱ';
+$string['generalcomments'] = 'አስተያየቶችን ያካትቱ';
+$string['generalcompetencies'] = 'ብቃቶችን ያካትቱ';
+$string['generalcontentbankcontent'] = 'የይዘት የባንክ ይዘትን ያካትቱ';
+$string['generalcustomfield'] = 'ብጁ መስኮችን ያካትቱ';
+$string['generalenrolments'] = 'የመመዝገቢያ ዘዴዎችን ያካትቱ';
+$string['generalfiles'] = 'ፋይሎችን ያካትቱ';
+$string['generalfilters'] = 'ማጣሪያዎችን ያካትቱ';
+$string['generalhistories'] = 'ታሪኮችን ያካትቱ';
+$string['generalgradehistories'] = 'ታሪኮችን ያካትቱ';
+$string['generallegacyfiles'] = 'የቆዩ የኮርስ ፋይሎችን ያካትቱ';
+$string['generallogs'] = 'ምዝግብ ማስታወሻዎችን ያካትቱ';
+$string['generalgroups'] = 'ቡድኖችን እና ስብስቦችን ያካትቱ';
+$string['generalrestoredefaults'] = 'አጠቃላይ እነበረበት መልስ ነባሪዎች';
+$string['mergerestoredefaults'] = 'ወደ ሌላ ኮርስ ሲዋሃዱ ነባሪዎችን ወደነበሩበት ይመልሱ';
+$string['replacerestoredefaults'] = 'ይዘቶችን መሰረዝ ወደ ሌላ ኮርስ ሲመለሱ ነባሪዎችን ወደነበሩበት ይመልሱ';
+$string['generalrestoresettings'] = 'አጠቃላይ የመልሶ ማግኛ ቅንብሮች';
+$string['generalroleassignments'] = 'የሚና ስራዎችን ያካትቱ';
+$string['generalpermissions'] = 'የፍቃድ መሻሮችን ያካትቱ';
+$string['generalsettings'] = 'አጠቃላይ የመጠባበቂያ ቅንብሮች';
+$string['generaluserscompletion'] = 'የተጠቃሚ ማጠናቀቂያ መረጃን ያካትቱ';
+$string['generalusers'] = 'ተጠቃሚዎችን ያካትቱ';
+$string['generalxapistate'] = 'እንደ H5P እንቅስቃሴዎች ባሉ ይዘቶች ውስጥ የተጠቃሚውን ሁኔታ ያካትቱ';
+$string['hidetypes'] = 'ዓይነት አማራጮችን ደብቅ';
+$string['importgeneralsettings'] = 'አጠቃላይ የማስመጣት ነባሪዎች';
+$string['importgeneralmaxresults'] = 'ለማስመጣት የተዘረዘሩ ከፍተኛው የኮርሶች ብዛት';
+$string['importgeneralmaxresults_desc'] = 'ይህ የማስመጣት ሂደት የመጀመሪያ ደረጃ ላይ የተዘረዘሩትን ኮርሶች ብዛት ይቆጣጠራል';
+$string['importgeneralduplicateadminallowed'] = 'የአስተዳዳሪ ግጭት አፈታትን ፍቀድ';
+$string['importgeneralduplicateadminallowed_desc'] = 'ጣቢያው የተጠቃሚ ስም ያለው \'አስተዳዳሪ\' ያለው መለያ ካለው፣ የተጠቃሚ ስም \'አስተዳዳሪ\' ያለው መለያ የያዘ የመጠባበቂያ ፋይል ወደነበረበት ለመመለስ መሞከር ግጭት ሊያስከትል ይችላል። ይህ ቅንብር ከነቃ ግጭቱ የሚፈታው በመጠባበቂያ ፋይሉ ውስጥ ያለውን የተጠቃሚ ስም ወደ \'admin_xyz\' በመቀየር ነው።';
+$string['importfile'] = 'የምትኬ ፋይል ስቀል';
+$string['importbackupstage1action'] = 'ቀጣይ';
+$string['importbackupstage2action'] = 'ቀጣይ';
+$string['importbackupstage4action'] = 'ማስመጣትን ያከናውኑ';
+$string['importbackupstage8action'] = 'ቀጥል';
+$string['importbackupstage16action'] = 'ቀጥል';
+$string['importcurrentstage0'] = 'የኮርስ ምርጫ';
+$string['importcurrentstage1'] = 'የመጀመሪያ ቅንብሮች';
+$string['importcurrentstage2'] = 'የመርሃግብር ቅንብሮች';
+$string['importcurrentstage4'] = 'ማረጋገጫ እና ግምገማ';
+$string['importcurrentstage8'] = 'ማስመጣትን ያከናውኑ';
+$string['importcurrentstage16'] = 'ተጠናቀቀ';
+$string['importfromccmidtocourse'] = 'ከcmid:{$a->srccmid} ወደ ኮርስ አስመጣ:{$a->dstcourseid}';
+$string['importfromcoursetocourse'] = 'ከኮርስ አስመጣ፡{$a->srccourseid} ወደ ኮርስ፡{$a->dstcourseid}';
+$string['importrootsettings'] = 'አስመጣ ቅንብሮች';
+$string['importsettings'] = 'አጠቃላይ የማስመጣት ቅንብሮች';
+$string['importsuccess'] = 'ማስመጣት ተጠናቅቋል። ወደ ኮርሱ ለመመለስ ቀጥል የሚለውን ጠቅ ያድርጉ።';
+$string['inprogress'] = 'ምትኬ በሂደት ላይ ነው።';
+$string['includeactivities'] = 'ያካትቱ፡';
+$string['includeditems'] = 'የተካተቱ ዕቃዎች፡-';
+$string['includesection'] = 'ክፍል {$a}';
+$string['includeuserinfo'] = 'የተጠቃሚ ውሂብ';
+$string['includeuserinfo_instance'] = '{$a} የተጠቃሚ ውሂብ ያካትቱ';
+$string['includefilereferences'] = 'ወደ ውጫዊ ይዘቶች ማጣቀሻዎችን ፋይል ያድርጉ';
+$string['jumptofinalstep'] = 'ወደ መጨረሻው ደረጃ ይዝለሉ';
+$string['keep'] = 'አቆይ';
+$string['locked'] = 'ተቆልፏል';
+$string['lockedbypermission'] = 'ይህን ቅንብር ለመለወጥ በቂ ፈቃዶች የሎትም።';
+$string['lockedbyconfig'] = 'ይህ ቅንብር በነባሪ የመጠባበቂያ ቅንጅቶች ተቆልፏል';
+$string['lockedbyhierarchy'] = 'በጥገኞች ተቆልፏል';
+$string['loglifetime'] = 'ምዝግብ ማስታወሻዎችን ለ';
+$string['managefiles'] = 'የምትኬ ፋይሎችን አስተዳድር';
+$string['managefiles_activity'] = 'የእንቅስቃሴ ምትኬዎችን ያቀናብሩ';
+$string['managefiles_course'] = 'የኮርስ ምትኬዎችን ያስተዳድሩ';
+$string['managefiles_backup'] = 'የግል ምትኬዎችን ያስተዳድሩ';
+$string['managefiles_automated'] = 'ራስ-ሰር ምትኬዎችን ያቀናብሩ';
+$string['keptroles'] = 'የሚና ምዝገባዎችን ያካትቱ';
+$string['keptroles_help'] = 'የተመረጡ ሚናዎች ያላቸው ተጠቃሚዎች ወደ አዲሱ ኮርስ ይመዘገባሉ. \'የተጠቃሚ ውሂብ አካትት\' እስካልነቃ ድረስ ምንም የተጠቃሚ ውሂብ አይገለበጥም።';
+$string['missingfilesinpool'] = 'አንዳንድ ፋይሎች በመጠባበቂያው ጊዜ ሊቀመጡ አልቻሉም፣ እና ስለዚህ እነሱን ወደነበሩበት መመለስ አይቻልም።';
+$string['moodleversion'] = 'የሞድል ስሪት';
+$string['moreresults'] = 'በጣም ብዙ ውጤቶች አሉ፣ የበለጠ የተለየ ፍለጋ ያስገቡ።';
+$string['nomatchingcourses'] = 'የሚታዩ ኮርሶች የሉም';
+$string['norestoreoptions'] = 'ወደነበሩበት መመለስ የሚችሏቸው ምድቦች ወይም ነባር ኮርሶች የሉም።';
+$string['originalwwwroot'] = 'የመጠባበቂያ ዩአርኤል';
+$string['overwrite'] = 'ጻፍ';
+$string['pendingasyncdetail'] = 'ያልተመሳሰለ መጠባበቂያዎች ተጠቃሚው ለአንድ ግብአት አንድ በመጠባበቅ ላይ ያለ ምትኬ እንዲኖረው ብቻ ይፈቅዳሉ። <br/> በርካታ ያልተመሳሰሉ መጠባበቂያዎች የተመሳሳዩ ሃብቶች ወረፋ ሊደረጉ አይችሉም፣ ምክንያቱም ይህ ምናልባት ተመሳሳይ ይዘት ያላቸው ብዙ ምትኬዎችን ሊያመጣ ይችላል።';
+$string['pendingasyncdeletedetail'] = 'ይህ ኮርስ ያልተመሳሰለ ምትኬ በመጠባበቅ ላይ ነው። <br/> ይህ ምትኬ እስኪያልቅ ድረስ ኮርሶች ሊሰረዙ አይችሉም።';
+$string['pendingasyncedit'] = 'ለዚህ ኮርስ የሚጠየቅ ምትኬ ወይም ቅጂ አለ። ይህ እስኪጠናቀቅ ድረስ እባክዎን ኮርሱን አያርትዑ።';
+$string['pendingasyncerror'] = 'ለዚህ ሃብት ምትኬ በመጠባበቅ ላይ';
+$string['previousstage'] = 'ቀዳሚ';
+$string['preparingui'] = 'ገጽን ለማሳየት በመዘጋጀት ላይ';
+$string['preparingdata'] = 'ውሂብ በማዘጋጀት ላይ';
+$string['privacy:metadata:backup:detailsofarchive'] = 'ይህ መዝገብ ከኮርስ ጋር የተያያዙ የተለያዩ የተጠቃሚ መረጃዎችን እንደ ክፍሎች፣ የተጠቃሚ ምዝገባዎች እና የእንቅስቃሴ ውሂብ ሊይዝ ይችላል።';
+$string['privacy:metadata:backup:externalpurpose'] = 'የዚህ ማህደር አላማ ከኮርስ ጋር የተያያዙ መረጃዎችን ማከማቸት ሲሆን ይህም ወደፊት ሊመለስ ይችላል።';
+$string['privacy:metadata:backup_controllers'] = 'የመጠባበቂያ ክዋኔዎች ዝርዝር';
+$string['privacy:metadata:backup_controllers:itemid'] = 'የትምህርቱ መታወቂያ';
+$string['privacy:metadata:backup_controllers:operation'] = 'የተከናወነው ቀዶ ጥገና, ለምሳሌ. ወደነበረበት መመለስ.';
+$string['privacy:metadata:backup_controllers:timecreated'] = 'ድርጊቱ የተፈጠረበት ጊዜ';
+$string['privacy:metadata:backup_controllers:timemodified'] = 'እርምጃው የተሻሻለበት ጊዜ';
+$string['privacy:metadata:backup_controllers:type'] = 'እየተሠራበት ያለው የንጥሉ ዓይነት፣ ለምሳሌ. እንቅስቃሴ.';
+$string['qcategory2coursefallback'] = 'የጥያቄዎች ምድብ «{$a->name}»፣ በመጀመሪያ በስርአት|ኮርስ|የኮርስ_ምድብ አውድ በመጠባበቂያ ፋይል ውስጥ፣ ወደነበረበት በመመለስ በጥያቄ ባንክ ሞዱል አውድ ላይ ይፈጠራል።';
+$string['qcategorycannotberestored'] = 'የጥያቄዎች ምድብ "{$a->name}" በመልሶ ማቋቋም ሊፈጠር አይችልም።';
+$string['question2coursefallback'] = 'የጥያቄዎች ምድብ «{$a->name}»፣ በመጀመሪያ በስርዓት|ኮርስ|በመጠባበቂያ ፋይል ውስጥ ያለው ኮርስ_ምድብ፣ ወደነበረበት በመመለስ በጥያቄ ባንክ ሞዱል አውድ ላይ ይፈጠራል።';
+$string['questioncannotberestored'] = '"{$a->name}" የሚሉት ጥያቄዎች ወደነበረበት በመመለስ ሊፈጠሩ አይችሉም';
+$string['restoreactivity'] = 'እንቅስቃሴን ወደነበረበት መልስ';
+$string['restorecourse'] = 'ኮርሱን እነበረበት መልስ';
+$string['restorecoursesettings'] = 'የኮርስ ቅንብሮች';
+$string['restoredcourseid'] = 'የተመለሰ የኮርስ መታወቂያ፡ {$a}';
+$string['restoreexecutionsuccess'] = 'ትምህርቱ በተሳካ ሁኔታ ወደነበረበት ተመልሷል።';
+$string['restorefileweremissing'] = 'አንዳንድ ፋይሎች በመጠባበቂያው ውስጥ ስለጠፉ ወደነበሩበት መመለስ አልተቻለም።';
+$string['restorenewcoursefullname'] = 'አዲስ የኮርስ ስም';
+$string['restorenewcourseshortname'] = 'አዲስ ኮርስ አጭር ስም';
+$string['restorenewcoursestartdate'] = 'አዲስ መጀመሪያ ቀን';
+$string['restorenofilesbackuparea'] = 'እስካሁን ምንም የምትኬ ፋይሎች የሉም።';
+$string['restorenofilesbackuparea_activity'] = 'ለዚህ እንቅስቃሴ እስካሁን ምንም የምትኬ ፋይሎች የሉም።';
+$string['restorenofilesbackuparea_course'] = 'ለዚህ ኮርስ እስካሁን ምንም የምትኬ ፋይሎች የሉም።';
+$string['restorenofilesbackuparea_backup'] = 'እስካሁን ምንም የግል ምትኬ ፋይሎች የሎትም።';
+$string['restorenofilesbackuparea_automated'] = 'እስካሁን ምንም ራስ-ሰር ምትኬ ፋይሎች የሉም።';
+$string['restorerootsettings'] = 'ቅንብሮችን ወደነበሩበት መልስ';
+$string['restoresection'] = 'ክፍልን ወደነበረበት መልስ';
+$string['restorestage1'] = 'አረጋግጥ';
+$string['restorestage1action'] = 'ቀጣይ';
+$string['restorestage2'] = 'መድረሻ';
+$string['restorestage2action'] = 'ቀጣይ';
+$string['restorestage4'] = 'ቅንብሮች';
+$string['restorestage4action'] = 'ቀጣይ';
+$string['restorestage8'] = 'እቅድ';
+$string['restorestage8action'] = 'ቀጣይ';
+$string['restorestage16'] = 'ክለሳ';
+$string['restorestage16action'] = 'መልሶ ማግኛን ያከናውኑ';
+$string['restorestage32'] = 'ሂደት';
+$string['restorestage32action'] = 'ቀጥል';
+$string['restorestage64'] = 'ተጠናቀቀ';
+$string['restorestage64action'] = 'ቀጥል';
+$string['restoretarget'] = 'ዒላማውን ወደነበረበት መልስ';
+$string['restoretocourse'] = 'ወደ ኮርስ እነበረበት መልስ፦';
+$string['restoretocurrentcourse'] = 'ወደዚህ ኮርስ ይመለሱ';
+$string['restoretocurrentcourseadding'] = 'የመጠባበቂያ ኮርሱን ወደዚህ ኮርስ ያዋህዱ';
+$string['restoretocurrentcoursedeleting'] = 'የዚህን ኮርስ ይዘት ይሰርዙ እና ከዚያ ወደነበረበት ይመልሱ';
+$string['restoretoexistingcourse'] = 'ወደነበረበት ኮርስ ይመልሱ';
+$string['restoretoexistingcourseadding'] = 'የመጠባበቂያ ኮርሱን አሁን ካለው ኮርስ ጋር ያዋህዱ';
+$string['restoretoexistingcoursedeleting'] = 'የነባሩን ኮርስ ይዘቶች ይሰርዙ እና ከዚያ ወደነበረበት ይመልሱ';
+$string['restoretonewcourse'] = 'እንደ አዲስ ኮርስ እነበረበት መልስ';
+$string['restoringcourse'] = 'የኮርሱ እድሳት በሂደት ላይ ነው።';
+$string['restoringcourseshortname'] = 'ወደነበረበት መመለስ';
+$string['restorerolemappings'] = 'ሚና ካርታዎችን ወደነበሩበት ይመልሱ';
+$string['rootenrolmanual'] = 'እንደ በእጅ ምዝገባ ይመልሱ';
+$string['rootsettingcustomfield'] = 'ብጁ መስኮችን ያካትቱ';
+$string['rootsettingenrolments'] = 'የመመዝገቢያ ዘዴዎችን ያካትቱ';
+$string['rootsettingenrolments_always'] = 'አዎን ሁል ጊዜ';
+$string['rootsettingenrolments_never'] = 'አይ፣ ተጠቃሚዎችን እንደ በእጅ ምዝገባ ይመልሱ';
+$string['rootsettingenrolments_withusers'] = 'አዎ፣ ግን ተጠቃሚዎች ከተካተቱ ብቻ';
+$string['rootsettings'] = 'የመጠባበቂያ ቅንብሮች';
+$string['rootsettingusers'] = 'የተመዘገቡ ተጠቃሚዎችን ያካትቱ';
+$string['rootsettinganonymize'] = 'የተጠቃሚ መረጃን ስም-አልባ ያድርጉ';
+$string['rootsettingroleassignments'] = 'የተጠቃሚ ሚና ምደባዎችን ያካትቱ';
+$string['rootsettingpermissions'] = 'የፍቃድ መሻሮችን ያካትቱ';
+$string['rootsettingactivities'] = 'እንቅስቃሴዎችን እና ሀብቶችን ያካትቱ';
+$string['rootsettingbadges'] = 'ባጆችን ያካትቱ';
+$string['rootsettingblocks'] = 'ብሎኮችን ያካትቱ';
+$string['rootsettingcompetencies'] = 'ብቃቶችን ያካትቱ';
+$string['rootsettingfilters'] = 'ማጣሪያዎችን ያካትቱ';
+$string['rootsettingfiles'] = 'ፋይሎችን ያካትቱ';
+$string['rootsettingcomments'] = 'አስተያየቶችን ያካትቱ';
+$string['rootsettingcalendarevents'] = 'የቀን መቁጠሪያ ክስተቶችን ያካትቱ';
+$string['rootsettingcontentbankcontent'] = 'የይዘት የባንክ ይዘትን ያካትቱ';
+$string['rootsettinguserscompletion'] = 'የተጠቃሚ ማጠናቀቂያ ዝርዝሮችን ያካትቱ';
+$string['rootsettingquestionbank'] = 'የጥያቄ ባንክን ያካትቱ';
+$string['rootsettinglegacyfiles'] = 'የቆዩ የኮርስ ፋይሎችን ያካትቱ';
+$string['rootsettinglogs'] = 'የኮርስ ምዝግብ ማስታወሻዎችን ያካትቱ';
+$string['rootsettinggradehistories'] = 'የክፍል ታሪክን ያካትቱ';
+$string['rootsettinggroups'] = 'ቡድኖችን እና ስብስቦችን ያካትቱ';
+$string['rootsettingimscc1'] = 'ወደ አይኤምኤስ የጋራ ካርቶን ቀይር 1.0';
+$string['rootsettingimscc11'] = 'ወደ አይኤምኤስ የጋራ ካርትሪጅ ቀይር 1.1';
+$string['rootsettingxapistate'] = 'እንደ H5P እንቅስቃሴዎች ባሉ ይዘቶች ውስጥ የተጠቃሚውን ሁኔታ ያካትቱ';
+$string['samesitenotification'] = 'ይህ ምትኬ የተፈጠረው ፋይሎችን ሳይሆን ፋይሎቹን በማጣቀስ ብቻ ነው። ወደነበረበት መመለስ በዚህ ጣቢያ ላይ ብቻ ነው የሚሰራው።';
+$string['section_prefix'] = 'ክፍል {$a}:';
+$string['sitecourseformatwarning'] = 'ይህ የጣቢያ መነሻ ምትኬ ነው። በጣቢያው ቤት ላይ ብቻ ወደነበረበት መመለስ ይቻላል.';
+$string['storagecourseonly'] = 'የኮርስ ምትኬ ፋይል ቦታ';
+$string['storagecourseandexternal'] = 'የኮርስ ምትኬ ፋይል ቦታ እና የተገለጸው ማውጫ';
+$string['storageexternalonly'] = 'ለራስ-ሰር ምትኬዎች የተወሰነ ማውጫ';
+$string['sectionincanduser'] = 'በመጠባበቂያ ውስጥ ከተጠቃሚ መረጃ ጋር ተካትቷል።';
+$string['sectioninc'] = 'በመጠባበቂያ ውስጥ ተካትቷል (የተጠቃሚ መረጃ የለም)';
+$string['sectionactivities'] = 'ተግባራት';
+$string['selectacategory'] = 'ምድብ ይምረጡ';
+$string['selectacourse'] = 'ኮርስ ይምረጡ';
+$string['setting_course_fullname'] = 'የኮርሱ ስም';
+$string['setting_course_shortname'] = 'ኮርስ አጭር ስም';
+$string['setting_course_startdate'] = 'የኮርሱ መጀመሪያ ቀን';
+$string['setting_keep_roles_and_enrolments'] = 'አሁን ያሉ ሚናዎችን እና ምዝገባዎችን ያቆዩ';
+$string['setting_keep_groups_and_groupings'] = 'አሁን ያሉ ቡድኖችን እና ስብስቦችን ያስቀምጡ';
+$string['setting_overwrite_conf'] = 'የኮርስ ውቅርን ይድገሙት';
+$string['setting_overwrite_course_fullname'] = 'የኮርሱን ሙሉ ስም ይፃፉ';
+$string['setting_overwrite_course_shortname'] = 'የኮርስ አጭር ስም ይፃፉ';
+$string['setting_overwrite_course_startdate'] = 'የኮርሱ መጀመሪያ ቀን ይፃፉ';
+$string['showtypes'] = 'ዓይነት አማራጮችን አሳይ';
+$string['skiphidden'] = 'የተደበቁ ኮርሶችን ይዝለሉ';
+$string['skiphiddenhelp'] = 'የተደበቁ ኮርሶችን ለመዝለል ወይም ላለማቋረጥ ይምረጡ';
+$string['skipmodifdays'] = 'ከዚያ ወዲህ ያልተሻሻሉ ኮርሶችን ዝለል';
+$string['skipmodifdayshelp'] = 'ከተወሰኑ ቀናት በኋላ ያልተሻሻሉ ኮርሶችን ለመዝለል ይምረጡ';
+$string['skipmodifprev'] = 'ካለፈው ምትኬ ጀምሮ ያልተሻሻሉ ኮርሶችን ዝለል';
+$string['skipmodifprevhelp'] = 'ከመጨረሻው አውቶማቲክ ምትኬ በኋላ ያልተሻሻሉ ኮርሶችን መዝለልዎን ይምረጡ። ይህ ምዝግብ ማስታወሻን ለማንቃት ይፈልጋል።';
+$string['status'] = 'ሁኔታ';
+$string['subsectioncontent'] = 'ንዑስ ክፍል ይዘት';
+$string['successful'] = 'ምትኬ ተሳክቷል።';
+$string['successfulcopy'] = 'መቅዳት ተሳክቷል።';
+$string['successfulrestore'] = 'ወደነበረበት መመለስ ተሳክቷል።';
+$string['timetaken'] = 'ጊዜ ወስዷል';
+$string['title'] = 'ርዕስ';
+$string['totalcategorysearchresults'] = 'ጠቅላላ ምድቦች፡ {$a}';
+$string['totalcoursesearchresults'] = 'ጠቅላላ ኮርሶች፡ {$a}';
+$string['undefinedrolemapping'] = 'የሚና ካርታ ስራ ለ\'{$a}\' አርኪታይፕ አልተገለጸም።';
+$string['unnamedsection'] = 'ያልተሰየመ ክፍል';
+$string['userdata'] = 'የተጠቃሚ ውሂብ ያካትቱ';
+$string['userdata_help'] = 'ከነቃ፣ እንደ የውይይት መድረክ ልጥፎች፣ የምደባ ማስረከቢያዎች ወዘተ ያሉ መረጃዎች ወደ አዲሱ ኮርስ ለማንኛውም ተጠቃሚዎች \'የሚና ምዝገባዎችን አካትት\' ውስጥ ይገለበጣሉ።';
+$string['userinfo'] = 'Userinfo';
+$string['module'] = 'ሞጁል';
+$string['morecoursesearchresults'] = 'ከ{$a} በላይ ኮርሶች ተገኝተዋል፣የመጀመሪያውን {$a} ውጤቶችን ያሳያሉ';
+$string['recyclebin_desc'] = 'እነዚህ መቼቶች ለሪሳይክል ቢን ጥቅም ላይ እንደሚውሉ ልብ ይበሉ።';
+$string['configgeneralquestionbank'] = 'ከነቃ የጥያቄው ባንክ በነባሪ በመጠባበቂያዎች ውስጥ ይካተታል። እባክዎን ያስተውሉ፡ ይህን ቅንብር ማሰናከል የጥያቄ ባንኩን የሚጠቀሙ ተግባራትን ምትኬ ያሰናክላል፣ ለምሳሌ ጥያቄዎች።';
+$string['generalquestionbank'] = 'የጥያቄ ባንክን ያካትቱ';

@@ -1,0 +1,177 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+
+/**
+ * Strings for component 'currencies', language 'am'
+ *
+ * @package   currencies
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['AED'] = 'የተባበሩት አረብ ኤምሬትስ ዲርሀም';
+$string['AFN'] = 'አፍጋኒስታን አፍጋኒ';
+$string['ALL'] = 'የአልባኒያ ሌክ';
+$string['AMD'] = 'የአርሜኒያ ድራም';
+$string['ANG'] = 'የኔዘርላንድ አንቲሊያን ጊልደር';
+$string['AOA'] = 'የአንጎላ ኩዋንዛ';
+$string['ARS'] = 'የአርጀንቲና ፔሶ';
+$string['AUD'] = 'የአውስትራሊያ ዶላር';
+$string['AWG'] = 'አሩባን ፍሎሪን';
+$string['AZN'] = 'አዘርባጃን ማናት';
+$string['BAM'] = 'ቦስኒያ እና ሄርዞጎቪና ሊለወጥ የሚችል ማርክ';
+$string['BBD'] = 'ባርባዶስ ዶላር';
+$string['BDT'] = 'የባንግላዲሽ ታካ';
+$string['BGN'] = 'የቡልጋሪያ ሌቭ';
+$string['BHD'] = 'የባህሬን ዲናር';
+$string['BIF'] = 'የብሩንዲ ፍራንክ';
+$string['BMD'] = 'የቤርሙዲያ ዶላር';
+$string['BND'] = 'ብሩኒ ዶላር';
+$string['BOB'] = 'የቦሊቪያ ቦሊቪያኖ';
+$string['BRL'] = 'የብራዚል ሪል';
+$string['BSD'] = 'የባሃማስ ዶላር';
+$string['BTN'] = 'ቡታን ንጉልትረም';
+$string['BWP'] = 'ቦትስዋና ፑላ';
+$string['BYR'] = 'የቤላሩስኛ ሩብል';
+$string['BZD'] = 'ቤሊዝ ዶላር';
+$string['CAD'] = 'የካናዳ ዶላር';
+$string['CDF'] = 'የኮንጐ ፍራንክ';
+$string['CHF'] = 'የስዊዝ ፍራንክ';
+$string['CLF'] = 'የቺሊ ዩኒዳዴስ ዴ ፎሜንቶ';
+$string['CLP'] = 'የቺሊ ፔሶ';
+$string['CNY'] = 'የቻይና ዩዋን (ሬንሚንቢ)';
+$string['COP'] = 'የኮሎምቢያ ፔሶ';
+$string['CRC'] = 'ኮስታሪካ ኮሎን';
+$string['CUC'] = 'የኩባ ፔሶ';
+$string['CUP'] = 'የኩባ ፔሶ';
+$string['CVE'] = 'ኬፕ ቨርዴ Escudo';
+$string['CZK'] = 'ቼክ ኮሩና';
+$string['DJF'] = 'የጅቡቲ ፍራንክ';
+$string['DKK'] = 'የዴንማርክ ክሮን';
+$string['DOP'] = 'የዶሚኒካን ፔሶ';
+$string['DZD'] = 'የአልጄሪያ ዲናር';
+$string['EGP'] = 'የግብፅ ፓውንድ';
+$string['ERN'] = 'ኤርትራ ናቅፋ';
+$string['ETB'] = 'የኢትዮጵያ ብር';
+$string['EUR'] = 'ዩሮ';
+$string['FJD'] = 'ፊጂ ዶላር';
+$string['FKP'] = 'የፎክላንድ ደሴቶች ፓውንድ';
+$string['GBP'] = 'የእንግሊዝ ፓውንድ ስተርሊንግ';
+$string['GEL'] = 'የጆርጂያ ላሪ';
+$string['GHS'] = 'የጋና ሲዲ';
+$string['GIP'] = 'ጊብራልታር ፓውንድ';
+$string['GMD'] = 'የጋምቢያ ዳላሲ';
+$string['GNF'] = 'የጊኒ ፍራንክ';
+$string['GTQ'] = 'የጓቲማላ ኩቲዛል';
+$string['GYD'] = 'የጉያና ዶላር';
+$string['HKD'] = 'የሆንግ ኮንግ ዶላር';
+$string['HNL'] = 'ሆንዱራን ሌምፒራ';
+$string['HRK'] = 'የክሮሺያ ኩና';
+$string['HTG'] = 'የሄይቲ ጎርዴ';
+$string['HUF'] = 'የሃንጋሪ ፎሪንት።';
+$string['IDR'] = 'የኢንዶኔዥያ ሩፒያ';
+$string['ILS'] = 'የእስራኤል ሰቅል';
+$string['INR'] = 'የህንድ ሩፒ';
+$string['IQD'] = 'የኢራቅ ዲናር';
+$string['IRR'] = 'የኢራን ሪአል';
+$string['ISK'] = 'አይስላንድ ክሮና';
+$string['JMD'] = 'የጃማይካ ዶላር';
+$string['JOD'] = 'የዮርዳኖስ ዲናር';
+$string['JPY'] = 'የጃፓን የን';
+$string['KES'] = 'የኬኒያ ሺሊንግ';
+$string['KGS'] = 'ኪርጊዝስታኒ ሶም';
+$string['KHR'] = 'የካምቦዲያ ሪል';
+$string['KMF'] = 'የኮሞሮስ ፍራንክ';
+$string['KPW'] = 'የሰሜን ኮሪያ ዎን';
+$string['KRW'] = 'የደቡብ ኮሪያ ዎን';
+$string['KWD'] = 'የኩዌት ዲናር';
+$string['KYD'] = 'የካይማን ደሴቶች ዶላር';
+$string['KZT'] = 'ካዛኪስታን ተንጌ';
+$string['LAK'] = 'ላኦ ኪፕ';
+$string['LBP'] = 'የሊባኖስ ፓውንድ';
+$string['LKR'] = 'የሲሪላንካ ሩፒ';
+$string['LRD'] = 'የላይቤሪያ ዶላር';
+$string['LSL'] = 'ሌሶቶ ሎቲ';
+$string['LTL'] = 'የሊትዌኒያ ሊታስ';
+$string['LVL'] = 'የላትቪያ ላትስ';
+$string['LYD'] = 'የሊቢያ ዲናር';
+$string['MAD'] = 'የሞሮኮ ዲርሀም';
+$string['MDL'] = 'ሞልዶቫን ሊ';
+$string['MGA'] = 'ማላጋሲያ አሪሪ';
+$string['MKD'] = 'የመቄዶኒያ ዲናር';
+$string['MMK'] = 'ምያንማር (በርማኛ) ኪያት።';
+$string['MNT'] = 'የሞንጎሊያ ቱግሪክ';
+$string['MOP'] = 'ማካዎ ፓታካ';
+$string['MRO'] = 'ሞሪታንያ ኦውጉያ';
+$string['MUR'] = 'ሞሪሸስ ሩፒ';
+$string['MVR'] = 'የማልዲቪያ ሩፊያ';
+$string['MWK'] = 'ማላዊ ክዋቻ';
+$string['MXN'] = 'የሜክሲኮ ፔሶ';
+$string['MYR'] = 'የማሌዥያ ሪንጊት';
+$string['MZN'] = 'የሞዛምቢክ ሜቲካል';
+$string['NAD'] = 'የናሚቢያ ዶላር';
+$string['NGN'] = 'የናይጄሪያ ናይራ';
+$string['NIO'] = 'የኒካራጓ ኮርዶባ ኦሮ';
+$string['NOK'] = 'የኖርዌይ ክሮን';
+$string['NPR'] = 'የኔፓል ሩፒ';
+$string['NZD'] = 'የኒውዚላንድ ዶላር';
+$string['OMR'] = 'የኦማን ሪአል';
+$string['PAB'] = 'የፓናማ ባልቦአ';
+$string['PEN'] = 'የፔሩ ኑዌቮ ሶል';
+$string['PGK'] = 'ፓፑዋ ኒው ጊኒ ኪና';
+$string['PHP'] = 'የፊሊፒንስ ፔሶ';
+$string['PKR'] = 'የፓኪስታን ሩፒ';
+$string['PLN'] = 'የፖላንድ ዝሎቲ';
+$string['PYG'] = 'የፓራጓይ ጉአራኒ';
+$string['QAR'] = 'የኳታር ሪያል';
+$string['RON'] = 'የሮማኒያ ልዩ';
+$string['RSD'] = 'የሰርቢያ ዲናር';
+$string['RUB'] = 'የሩሲያ ሩብል';
+$string['RWF'] = 'የሩዋንዳ ፍራንክ';
+$string['SAR'] = 'የሳውዲ አረቢያ ሪያል';
+$string['SBD'] = 'የሰለሞን ደሴቶች ዶላር';
+$string['SCR'] = 'ሲሸልስ ሩፒ';
+$string['SDG'] = 'የሱዳን ፓውንድ';
+$string['SEK'] = 'የስዊድን ክሮና';
+$string['SGD'] = 'የሲንጋፖር ዶላር';
+$string['SHP'] = 'ሴንት ሄለና ፓውንድ';
+$string['SLL'] = 'የሴራሊዮን ሊዮን';
+$string['SOS'] = 'የሶማሌ ሺሊንግ';
+$string['SRD'] = 'የሱሪናም ዶላር';
+$string['SSP'] = 'የደቡብ ሱዳን ፓውንድ';
+$string['STD'] = 'ሳኦቶሜ እና ፕሪንሲፔ ዶብራ';
+$string['SVC'] = 'ኤል ሳልቫዶር ኮሎን';
+$string['SYP'] = 'የሶሪያ ፓውንድ';
+$string['SZL'] = 'ስዋዚ ሊላንገኒ';
+$string['THB'] = 'የታይላንድ ባህት';
+$string['TJS'] = 'ታጂኪስታን ሶሞኒ';
+$string['TMT'] = 'ቱርክሜኒስታን ማናት';
+$string['TND'] = 'የቱኒዚያ ዲናር';
+$string['TOP'] = 'ቶንጋን ፓአንጋ';
+$string['TRY'] = 'የቱርክ ሊራ';
+$string['TTD'] = 'ትሪንዳድ እና ቶቤጎ ዶላር';
+$string['TWD'] = 'ታይዋን ዶላር';
+$string['TZS'] = 'የታንዛኒያ ሺሊንግ';
+$string['UAH'] = 'የዩክሬን ሀሪቪንያ';
+$string['UGX'] = 'የኡጋንዳ ሺሊንግ';
+$string['USD'] = 'የአሜሪካ ዶላር';
+$string['UYU'] = 'የኡራጓይ ፔሶ';
+$string['UZS'] = 'የኡዝቤኪስታን ድምር';
+$string['VEF'] = 'የቬንዙዌላ ቦሊቫር ፉዌርቴ';
+$string['VND'] = 'የቬትናም ዶንግ';
+$string['VUV'] = 'ቫኑዋቱ ቫቱ';
+$string['WST'] = 'ሳሞአን ታላ';
+$string['XAF'] = 'ሴኤፍአ ፍራንክ ቤኤክ';
+$string['XCD'] = 'የምስራቅ ካሪቢያን ዶላር';
+$string['XOF'] = 'ሴኤፍአ ፍራንክ BEAO';
+$string['XPF'] = 'ሲኤፍፒ ፍራንክ';
+$string['YER'] = 'የየመን ሪአል';
+$string['ZAR'] = 'የደቡብ አፍሪካ ራንድ';
+$string['ZMW'] = 'የዛምቢያ ክዋቻ';
+$string['ZWL'] = 'የዚምባብዌ ዶላር';
